@@ -1,0 +1,150 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+body{
+    background-color: white;
+}
+#contenedor{
+    background-color: rgb(255, 255, 255);
+    width: 1200px;
+    margin: 0% auto;
+}
+#logo,#menu{
+    
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin: 5px;
+    
+}
+#menu{
+    margin-left: 25px;
+    width: 750px;
+    margin-bottom: 20px;
+}
+#logo{
+    margin-left: 35px;
+}
+#titulo{
+    background-color: #1AA8C5;
+    width: 1200px;
+    height: 150px;
+    clear: both;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 10px;
+}
+
+#redes{
+    margin-left: 450px;
+    width: 1200px;
+    height: 170px;
+    float: left;
+}
+
+#face,#wasa,#inst,#yutu
+{background-color: #ffffff;
+width: 60px;
+height: 60px;
+float: left;
+margin-top: 75px;
+margin-bottom: 40px;
+margin-left: 10px;}
+
+#flooter{
+    background-color: #686868;
+    width: 1200px;
+    height: 80px;
+    padding-top: 40px;
+    clear: both;
+    color: #ffffff;
+    text-align: center;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 100px;
+}
+#menu ul{
+    list-style: none;
+}
+#menu,#item{
+    float: left;
+    margin-top: 25px;
+}
+#menu,#item a{
+color: black;
+padding: 1px 40px;
+display: block;
+font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 18px;
+text-decoration: none;
+}
+#menu #desple{
+    display: none;
+    position: absolute;
+    min-width: 220px;
+}
+#menu #item a:hover{
+     background-color:#FFC5DD;
+}
+
+#menu #item:hover #desple{
+display: block;
+}
+#contenedorazul
+{width: 1200px ;
+height: 500px;
+background-color: #5fa0af;}
+
+#caja1
+{width: 600px;
+height: 400px;
+background-color: #ABF5FF;
+float: left;
+padding-top: 100px;}
+
+#caja2
+{width: 600px;
+height: 500px;
+background-color: #ABF5FF;
+float: left;
+background-image: url(/Users/hp/Desktop/home/img/foto2.png);
+font-family: 'Nunito', sans-serif;
+font-size: 30px;
+text-decoration: none;
+font-weight: 600;
+}
+
+
+
+#contenedorverde
+{width: 1200px ;
+height: 500px;
+background-color: #8AC820;}
+
+#caja3
+{width: 600px;
+height: 500px;
+background-color: #E4F995;
+background-image: url(/Users/hp/Desktop/home/img/foto3.png);
+float: left;
+font-family: 'Nunito', sans-serif;
+font-size: 30px;
+text-decoration: none;
+font-weight: 600;}
+
+#caja4
+{width: 600px;
+height: 500px;
+background-color: #E4F995;
+float: left;}
+
+
+
+
+
+
+

@@ -1,0 +1,143 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: white;
+}
+#contenedor{
+    background-color: rgb(255, 255, 255);
+    width: 1200px;
+    margin: 0% auto;
+}
+#logo,#menu{
+    
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin: 5px;
+    
+}
+#menu{
+    margin-left: 25px;
+    width: 750px;
+    margin-bottom: 20px;
+}
+#logo{
+    margin-left: 35px;
+}
+#titulo{
+    background-color: #8AC820;
+    width: 1200px;
+    height: 150px;
+    clear: both;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 50px ;
+    color: #ffffff;
+}
+
+#redes{
+    margin-left: 450px;
+    width: 1200px;
+    height: 170px;
+    float: left;
+}
+
+#face,#wasa,#inst,#yutu
+{background-color: #ffffff;
+width: 60px;
+height: 60px;
+float: left;
+margin-top: 75px;
+margin-bottom: 40px;
+margin-left: 10px;}
+
+#flooter{
+    background-color: #686868;
+    width: 1200px;
+    height: 80px;
+    padding-top: 40px;
+    clear: both;
+    text-align: center;
+    color: #ffffff;
+}
+
+#menu ul{
+    list-style: none;
+}
+#menu,#item{
+    float: left;
+    margin-top: 25px;
+}
+#menu,#item a{
+color: black;
+padding: 1px 40px;
+display: block;
+font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 18px;
+text-decoration: none;
+}
+#menu #desple{
+    display: none;
+    position: absolute;
+    min-width: 220px;
+}
+#menu #item a:hover{
+     background-color:#FFC5DD;
+}
+
+#menu #item:hover #desple{
+display: block;
+}
+
+
+#caja1
+{width: 1200px;
+height: 500px;
+background-image: url(/Users/hp/Desktop/home/img/fondo1.png);
+color: #686868;
+
+font-family: 'Nunito', sans-serif; 
+font-size: 35px;}
+
+#caja1 p
+{margin-left: 45px;}
+
+#caja1 h1
+{margin-top: 30px;}
+
+#caja2
+{width: 1200px;
+height: 500px;
+background-image: url(/Users/hp/Desktop/home/img/fondo2.png);
+font-size: 35px;
+color: #686868;
+text-align: end;
+font-family: 'Nunito', sans-serif;}
+
+#caja2 p
+{margin-right: 45px;}
+
+#caja3
+{width: 1200px;
+height: 500px;
+background-image: url(/Users/hp/Desktop/home/img/fondo3.png);
+font-family: 'Nunito', sans-serif;
+font-size: 35px;
+;color: #686868;}
+
+#caja3 p
+{margin-left: 45px;}
+
+
+
+
+
+
+
+
+
+
+

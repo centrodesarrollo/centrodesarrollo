@@ -1,0 +1,109 @@
+*{padding: 0; margin: 0;}
+
+body{background-color: rgb(255, 255, 255);}
+
+#contenedor{background-color:white;
+            width: 1200px;
+            height: 1740px;
+            margin: 0% auto;}
+
+#logo,#menu{width: 300px;
+           height: 200px;
+           float: left;
+           margin: 5px;} 
+
+#menu{margin-left: 25px;
+      width: 750px;
+      margin-bottom: 20px;}
+
+#logo{margin-left: 35px;}
+
+#titulo{background-color: #F6366D;
+        width: 1200px;
+        height: 150px;
+        clear: both;}
+
+#redes{margin-left: 500px;
+margin-top: 60px;}
+
+#face,#wasa,#inst,#yutu{width: 60px;
+                        height: 60px;
+                        float: left;
+                        margin-left: 10px;}         
+
+#flooter{background-color: #686868;
+         width: 1200px;
+         height: 80px;
+         clear: both;
+         margin-top: 170px;} 
+
+h1{color: white;
+   text-align: center;
+   font-size: 90px;
+   font-family: 'Nunito', sans-serif;}
+
+#menu ul{list-style: none;}
+
+#menu,#item{float: left;
+            margin-top: 25px;}
+
+#menu,#item a{color: black;
+             padding: 1px 40px;
+             display: block;
+             font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             font-size: 18px;
+             text-decoration: none;}
+
+#menu #desple{display: none;
+             position: absolute;
+             min-width: 220px;}
+
+#menu #item a:hover{background-color:#FFC5DD;}
+
+#menu #item:hover #desple{display: block;}
+
+h4{text-align: center;
+   color: white;
+   padding-top: 30px;}
+
+#agenda {width: 1200px;
+        height: 1100px;
+        clear: both;}
+
+#contenedorAgenda {width: 800px;
+                   height: 1100px;
+                   margin: 0 auto;}        
+
+#calendario {width: 485px;
+            height: 492px;
+            background-image: url("/Users/hp/Desktop/home/img/Calendario-trululu.webp");
+            background-repeat: no repeat;
+            background-position: center;
+            background-size: contain;
+            margin: 0 auto;
+            margin-top: 10px;}
+
+#contenedorFoto {width: 620px;
+                height: 349px;
+                margin: 0 auto;
+                padding-top: 15px;} 
+
+#texto {width: 620px;
+       height: 208px;
+       padding-top: 10px;
+       margin-left: 90px;}
+
+#texto h1{color: #f6366d;
+          text-align: left;
+          font-size: 80px;
+          font-family: 'Nunito', sans-serif;}
+
+#titulo h1{color: white;
+          text-align: center;
+          font-size: 80px;
+          font-family: 'Nunito', sans-serif;}
+
+#texto p{text-align: left;
+    font-size: 28px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;}

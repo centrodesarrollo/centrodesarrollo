@@ -1,0 +1,140 @@
+
+*{padding: 0%;
+    margin: 0%;
+
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+#contenedor{
+    background-color: rgb(255, 255, 255);
+    width: 1200px;
+    height: 1640px;
+    margin: 0% auto;
+}
+#logo,#menu{
+    
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin: 5px;
+    
+}
+#menu{
+    margin-left: 25px;
+    width: 750px;
+    margin-bottom: 20px;
+}
+#logo{
+    margin-left: 35px;
+}
+#titulo{
+    background-color: #1AA8C5;
+	margin-top: 10px;
+    width: 1200px;
+    height: 150px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#redes{
+    width: 300px;
+    height: 80px;
+    margin-left: 440px;
+    clear: both;
+    margin-bottom: 20px;
+	
+}
+#face, #wasa, #yutu, #inst{ 
+        width: 60px;
+        height: 60px;
+        float: left;
+        margin-bottom: 40px;
+        margin-left: 10px;
+
+}
+
+
+
+#flooter{
+    background-color: #686868;
+    width: 1200px;
+    height: 100px;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    font-size:70px;
+}
+
+#menu ul{
+    list-style: none;
+}
+#menu,.item{
+    float: left;
+    margin-top: 25px;
+}
+#menu,.item a{
+color: black;
+padding: 1px 40px;
+display: block;
+font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 18px;
+text-decoration: none;
+}
+#menu .desple{
+    display: none;
+    position: absolute;
+    min-width: 220px;
+}
+#menu .item a:hover{
+     background-color:#FFC5DD;
+}
+
+#menu .item:hover .desple{
+display: block;
+}
+#banner{width: 1200px;
+    height: 500px;
+    background-color: aqua;
+    clear: both;
+}
+#encuentranos,#mapa{
+    width: 400px;
+    height: 650px;
+    background-color: #FFFFFF;
+    float: left;
+    margin: 5px;
+}
+
+
+h2{color: #F6366D;
+   font-size: 65px; font-family: 'Nunito', sans-serif;margin-left: 50px;margin-top: 25px;}
+
+
+
+h3{color: #8AC820;
+   font-size: 36px; font-family: 'Nunito', sans-serif;margin-left: 50px;}
+
+h4{color: #ffffff; text-align:center;font-size: 20px; font-family: 'Nunito',sans-serif;}
+
+p{color: #000000; font-size: 27px; font-family: 'Nunito', sans-serif;margin-left: 50px;}
+
+
+
+
+
+#mapa{
+	background-color: aqua;
+	float: left;
+    margin-left: 255px;
+    margin-top: 50px;
+    width: 490px;
+	height: 500px;
+} 
+
+
+    

@@ -1,0 +1,166 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+#contenedor{
+    background-color: rgb(255, 255, 255);
+    width: 1200px;
+    height: 1640px;
+    margin: 0% auto;
+}
+#logo,#menu{
+    
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin: 5px;
+    
+}
+#menu{
+    margin-left: 25px;
+    width: 750px;
+    margin-bottom: 20px;
+}
+#logo{
+    margin-left: 35px;
+}
+#titulo{
+    background-color: #F6366D;
+    width: 1200px;
+    height: 150px;
+    clear: both;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 10px;
+}
+#clubtitu,#clubima,#clubletra{
+    width: 398px;
+    height: 200px;
+    float: left;
+    margin-top: 40px;
+}
+#clubtitu{
+    background-color: #ABF5FF;
+}
+#clubletra{
+    padding-left: 4px;
+}
+
+#añostitu,#añosimagen,#añosletra{
+    width: 398px;
+    height: 200px;
+    float: left;
+    margin-top: 30px;
+    
+}
+#añostitu{
+    background-color: #FFC5DD;
+}
+#año{
+    margin-top: 5px;
+}
+#bintitu,#binimagen,#binletra{
+   
+    width: 398px;
+    height: 200px;
+    float: left;
+    margin-top: 40px;
+   
+}
+#bintitu{
+    background-color: #E4F995;
+}
+#binletra{
+    padding-left: 6px;
+}
+#aletitu,#aleimagen,#aleletra{
+    
+    width: 398px;
+    height: 200px;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+#aletitu{
+    background-color:  #ABF5FF;
+}
+#redes{
+    margin-left: 450px;
+}
+#face,#wasa,#inst,#yutu{
+   
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+#flooter{
+    background-color: #686868;
+    width: 1200px;
+    height: 80px;
+    padding-top: 40px;
+    clear: both;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 90px;
+    font-family: 'Nunito', sans-serif;
+}
+#menu ul{
+    list-style: none;
+}
+#menu,#item{
+    float: left;
+    margin-top: 25px;
+}
+#menu,#item a{
+color: black;
+padding: 1px 40px;
+display: block;
+font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 18px;
+text-decoration: none;
+}
+#menu #desple{
+    display: none;
+    position: absolute;
+    min-width: 220px;
+}
+#menu #item a:hover{
+     background-color:#FFC5DD;
+}
+
+#menu #item:hover #desple{
+display: block;
+}
+h2{
+    color: #686868;
+    font-size: 75px;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Nunito', sans-serif;
+    @font-face {
+        font-family: "centur gothic";
+        src: url(74);
+    }
+}
+p{
+    text-align: right;
+    font-family: Century;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+h4{
+    text-align: center;
+    color: white;
+}
+#derecha{
+    text-align: left;
+}
